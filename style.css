@@ -1,0 +1,117 @@
+.card-container{
+    font-family: 'Manrope', sans-serif;
+  width: 400px;
+  border: none;
+  padding: none;
+  margin: 10px 10px 10px 10px;
+
+}
+.card{
+  width: 400px;
+  background: linear-gradient(87deg, #f5365c 0, #e65247 100%) !important;
+  border-bottom-right-radius: 200px;
+  position: relative;
+  z-index: 1;
+  height: 300px;
+  font-weight: 700;
+}
+
+.card-footer{
+  /* width: 400px; */
+  background: linear-gradient(87deg, #f5365c 0, #e65247 100%) !important;
+  border-bottom-right-radius: 200px!important;
+  padding: 1rem!important;
+  border-top: none;
+  
+}
+
+.card-trasera{
+  width: 400px;
+  /* background-image: linear-gradient( #fbfbfb, #ff041c );
+  border-bottom-right-radius: 150px;
+  position: relative;
+  z-index: 1; */
+  height: 300px;
+  /* font-weight: 700; */
+}
+
+div.foto{
+  margin: 5px 25px;
+  padding: 5px;
+}
+
+div.logo{
+  margin: 5px 25px;
+  padding: 5px;
+}
+
+div.logo img{
+  height: 98px;
+  width: 160px;
+}
+
+div.name{
+  margin: 0px 25px;
+  font-weight: 700;
+}
+
+div.pin{
+  position: relative;
+    right: 5px;
+    bottom: 55px;  
+}
+
+
+.centermx{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+
+.drop-shadow {
+position: relative;
+border: 1px solid #DDD;
+/*width: 40%;*/
+/*padding: 1em;*/
+margin-top: 2em;
+background: #fff;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) , 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-mox-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) , 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) , 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+content: "";
+position: absolute;
+z-index: -2;
+}
+
+
+.lifted:before,
+.lifted:after {
+bottom: 12px;
+left: 10px;
+width: 50%;
+height: 20%;
+max-width: 300px;
+max-height: 100px;
+-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+-mox-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+transform: rotate(-3deg);
+}
+.lifted:after {
+right: 10px;
+left: auto;
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+transform: rotate(3deg);
+}
